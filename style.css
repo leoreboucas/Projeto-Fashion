@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, #0a1b27 60%, #001110);
+}
+
+.header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.fashion-logo {
+    display: inline-block;
+}
+
+
+.fashion-nav {
+    text-transform: uppercase;
+    text-align: end;
+    display: inline-block;
+}
+
+.fashion-nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.fashion-nav ul li a {
+    color: rgb(16, 54, 97);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: 0.3s all ease;
+}
+
+.fashion-nav ul li a:hover {
+    color: #fff;
+}
+
+.fashion-bg {
+    height: 90vh;
+    width: 100%;
+}
+.fashion-bg figure {
+    width: 100%;
+    height: 100%;
+    background-image: url('imagens/topo.jpg');
+    background-size: cover;
+}
+
+.fashion-models {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-bottom: 40px;
+}
+
+.fashion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.fashion-content h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: #0a1b27;
+}
+
+.fashion-content p {
+    margin-bottom: 18px;
+    color: #213747;
+    line-height: 30px;
+}
+
+.fashion-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.card h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #213747;
+    margin: 5px 0px;
+}
+
+.card p {
+    color: #627986;
+    margin-bottom: 100px;
+}
+
+.fashion-about {
+    background-image: url(imagens/bg_detalhe.png);
+    background-position: center right;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+
+.fashion-about div {
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    height: 100%;
+}
+
+.fashion-about h2 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.fashion-about h2:last-of-type {
+    margin-bottom: 30px;
+}
+
+.fashion-about p {
+    max-width: 460px;
+}
+
+.fashion-map {
+    color: #213747;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
+    text-transform: uppercase;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.fashion-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #001110;
+    color: #397aa0;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+@media (max-width: 780px) {
+    .fashion-cards {
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 20px;
+    }   
+}
