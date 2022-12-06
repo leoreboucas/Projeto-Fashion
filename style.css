@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: tahoma, Arial, sans-serif;
 }
 
 body {
@@ -24,10 +24,6 @@ header {
     height: 50px;
 }
 
-.fashion-logo {
-    display: inline-block;
-}
-
 
 .fashion-nav {
     text-transform: uppercase;
@@ -41,7 +37,7 @@ header {
 }
 
 .fashion-nav ul li a {
-    color: rgb(16, 54, 97);
+    color: #425564;
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 14px;
@@ -82,12 +78,12 @@ header {
 .fashion-content h2 {
     font-size: 30px;
     margin-bottom: 18px;
-    color: #0a1b27;
+    color: #252525;
 }
 
 .fashion-content p {
     margin-bottom: 18px;
-    color: #213747;
+    color: #555;
     line-height: 30px;
 }
 
@@ -115,7 +111,7 @@ header {
 
 .fashion-about {
     background-image: url(imagens/bg_detalhe.png);
-    background-position: center right;
+    background-position: right bottom;
     background-size: 100%;
     display: flex;
     align-items: center;
@@ -145,7 +141,7 @@ header {
 }
 
 .fashion-map {
-    color: #213747;
+    color: #143f52;
 }
 
 .contact {
@@ -155,6 +151,8 @@ header {
     justify-content: center;
     margin: 35px 0;
     text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .map {
@@ -168,8 +166,8 @@ header {
     justify-content: center;
     align-items: center;
     height: 80px;
-    background-color: #001110;
-    color: #397aa0;
+    background-color: #0b171f;
+    color: #6f8597;
     font-weight: 400;
     letter-spacing: 6px;
 }
